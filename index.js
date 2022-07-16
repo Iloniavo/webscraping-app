@@ -16,7 +16,7 @@ const fs = require('fs');
                 societe : element.querySelector('h4').textContent,
                 contrat : element.querySelector('h5').textContent,
                 description : element.querySelector('a.description ').text,
-                dateLimite : element.querySelector('body > section.col2_max_min > div > div.max > article:nth-child(14) > aside.contenu_annonce > div > b > i')
+                dateLimite : element.querySelector('body > section.col2_max_min > div > div.max > article > aside.contenu_annonce > div > b > i')
             })
          }    
        return listOfJobs
